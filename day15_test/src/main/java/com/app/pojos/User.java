@@ -31,7 +31,7 @@ public class User extends BaseEntity
 	private double regAmount;
 	
 	@Column(name = "reg_date")
-	@DateTimeFormat(pattern  = "yyyy-MM-dd")
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private LocalDate regDate;
 	
 	public User()
